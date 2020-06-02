@@ -427,8 +427,8 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   position: relative; */
   background: #D3CCE3;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -626,10 +626,15 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
+/* .row .skills-content{
+  margin-left: 0 auto;
+} */
+
 .skills .progress {
   height: 50px;
   display: block;
   background: none;
+  margin: auto;  
 }
 
 .skills .progress .skill {
