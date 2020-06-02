@@ -1133,6 +1133,13 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+/* @media screen and (max-width: 600px) {
+  #mapouter {
+    width: 60px;
+  }
+} */
+
+
 .contact .info {
   width: 100%;
   background: #fff;
